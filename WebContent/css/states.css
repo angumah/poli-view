@@ -1,0 +1,121 @@
+body{
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+
+tr {
+	margin-top: 30px;
+	width: 98.8vw;
+	display: flex;
+	justify-content: space-around;
+}
+
+td {
+	color: white;
+	font-size: 20px;
+	width: 200px;
+	margin: auto;
+	text-align: center;
+}
+
+.dropdown{
+	position: absolute;
+    display: none;
+    margin-top: 7vh;
+    margin-left: -0.3vw;
+}
+
+#header {
+	position: absolute;
+	height: 90px;
+	width: 1898px;
+	margin-top: -10px;
+	margin-left: -8px;
+}
+
+#logo{
+	position: absolute;
+	z-index: 1;
+	height: 4vh;
+	width: 2.5vw;
+}
+
+#logo:hover{
+    opacity: 0.4;
+}
+
+
+#TopBar:hover .dropdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+#tableDiv {
+    position: absolute;
+    z-index: 4;
+    height: 500px;
+    width: 99vw;
+    margin-top: 240px;
+    margin-left: -9px;
+}
+
+#topBar{
+    position: absolute;
+    background-color: rgba(250, 33, 0, 100);
+    height: 6vh;
+    width: 100vw;
+    margin-top: -7vh;
+    margin-left: -0.4vw;
+}
+
+.title{
+	position: absolute;
+    margin-top: 12vh;
+    margin-left: 40vw;
+    text-align: center;
+    color: white;
+    font-size: 90px
+}
+
+#pageTitle{
+	margin-top: 0px;
+	margin-left: 800px;
+	color: black;
+}
+
+
+.tabs {
+	position: ansolute;
+border: 1px solid black;
+    width: 70px;
+    text-align: center;
+    background-color: rgba(82, 82, 82, 100);
+    color: rgb(213, 240, 247);
+    max-height: 40px;
+    margin-top: -15px;
+}
+
+
+.tabs:hover {
+    background-color: rgb(196, 196, 196);
+    
+}
+.urls{
+    text-decoration: none;
+    color: white;
+}
+
+.urls:hover{
+    color: #a9cffc; 
+}
+
+.urls:visited{
+    color: white;
+    text-decoration: none;
+}
+
+

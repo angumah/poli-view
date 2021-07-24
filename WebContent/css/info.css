@@ -1,0 +1,64 @@
+body {
+	overflow-y: scroll;
+    border: solid black;
+}
+
+
+#image {
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 20vh;
+    border: solid black;
+    width: 350px;
+    height: 350px;
+}
+#bio {
+    position: absolute;
+    margin-left: 47vw;
+    margin-top: 300px;
+    text-align: center;
+
+}
+#bio p {
+	font-size: 25px;
+    position: relative;
+    margin-top: -35px;
+    color: white;
+    width: 400px;
+    height: 30px;
+}
+
+#topBar{
+    position: absolute;
+    background-color: rgba(0, 85, 255, 1);
+    height: 6vh;
+    width: 100vw;
+    margin-top: -2vh;
+    margin-left: -0.5vw;
+}
+#header{
+	margin-top: -12px;
+}
+
+#logo{
+	margin-top: -8px;
+}
+
+.title{
+	margin-top: 4vh;
+}
+#info {
+	border: solid black;
+	border-collapse: collapse;
+	font-size: 14px;
+}
+
+#content{
+	position: absolute;
+	z-index: 4;
+	color: white;
+	width: 1000px;
+	height: 900px;
+	margin-top: 60vh;
+	margin-left: 30vw;
+}

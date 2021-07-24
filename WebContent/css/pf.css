@@ -1,0 +1,150 @@
+body{
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+caption{
+	font-size: 24px;
+}
+.dropdown{
+	position: absolute;
+    display: none;
+    margin-top: -35px;
+    margin-left: 50px;
+    width: 70px;
+}
+
+#header {
+	position: absolute;
+	height: 90px;
+	width: 100vw;
+	margin-left: -8px;
+}
+#TopBar{
+	position: absolute;
+    height: 90px;
+    margin-left: -8px;
+    width: 50px;
+}
+
+#logo:hover{
+    opacity: 0.4;
+}
+#logo{
+	position: absolute;
+	z-index: 1;
+	height: 4vh;
+	width: 2.5vw;
+	margin-top: 1vh;
+	margin-left: 1vw;
+
+}
+
+#TopBar:hover .dropdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+#tableDiv {
+    position: absolute;
+    border-radius: 10px;
+    background-color:  rgb(245, 245, 245);
+    z-index: 4;
+    border: solid black;
+    max-height: 500px;
+  	width: 200px;
+    margin-top: 100px;
+    margin-left: 600px;
+}
+
+#tableDiv2 {
+    position: absolute;
+    border-radius: 10px;
+    background-color:  rgb(245, 245, 245);
+    z-index: 4;
+    border: solid black;
+    max-height: 500px;
+  	width: 130px;
+    margin-top: 100px;
+    margin-left: 1000px;
+}
+
+td{
+	display: flex;
+	justify-content: center;
+	margin-left: 15px;
+}
+@media screen and (min-width:768px)
+{
+    body{
+    overflow-y: scroll;
+    }
+}
+
+#pageTitle{
+	margin-top: 25vh;
+	margin-left: 40vw;
+	color: rgb(255, 255, 255);
+}
+
+
+#topBar{
+    position: absolute;
+    background-color: rgba(250, 33, 0, 100);
+    height: 6vh;
+    width: 100vw;
+    margin-top: -25vh;
+    margin-left: -1.3vw;
+}
+
+.title{
+	position: absolute;
+    margin-top: -15vh;
+    margin-left: 40vw;
+    text-align: center;
+    color: white;
+    font-size: 90px
+}
+
+
+
+.tabs {
+    border: 1px solid black;
+    max-width: 70px;
+    text-align: center;
+    background-color: rgba(82, 82, 82, 100);
+    color: rgb(213, 240, 247);
+    max-height: 40px;
+    margin-top: -15px;
+}
+
+
+.tabs:hover {
+    background-color: rgb(196, 196, 196);
+    
+}
+.urls{
+    text-decoration: none;
+    color: blue;
+}
+
+.urls:hover{
+    color: #a9cffc; 
+}
+
+.urls:visited{
+    color: blue;
+    text-decoration: none;
+}
+
+.reps{
+	color: black;
+	text-decoration: none;
+}
+
+.senators{
+	color: black;
+	text-decoration: none;
+}
